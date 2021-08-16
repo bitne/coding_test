@@ -9,7 +9,7 @@ def go(day,sum):
     global ans
     if day==n+1:
         ans=max(ans,sum)
-        return ##n+1이 되었으면 거기서 마치고 종료하기 위해서 return을 써줌. 안 그러면 index 
+        return ##n+1이 되었으면 거기서 마치고 종료하기 위해서 return을 써줌. 안 그러면 index 넘어감
     if day>n+1:
         return
     go(day+1,sum)
